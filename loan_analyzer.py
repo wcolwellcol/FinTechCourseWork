@@ -148,9 +148,9 @@ def presvalue (future_value, remaining_months,annual_discount_rate):
 #new discount rate (annual)
 annual_discount_rate = .2
 
-#call the function and print analysis of new_loan
+#call the function with analysis of new_loan
 presvalue (new_loan.get("future_value"),new_loan.get("remaining_months"),annual_discount_rate)
-print(f"The present value of the loan is: {present_value}")
+print(f"The present value of the loan is:{result: .2f}")
 
 
 """Part 4: Conditionally filter lists of loans.
